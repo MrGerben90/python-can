@@ -126,5 +126,4 @@ class Message(object):
                 self.is_remote_frame == other.is_remote_frame and
                 self.is_error_frame == other.is_error_frame and
                 self.is_fd == other.is_fd and
-                self.bitrate_switch == other.bitrate_switch and
-                self.error_state_indicator == other.error_state_indicator)
+                self.bitrate_switch == other.bitrate_switch)
